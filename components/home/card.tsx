@@ -20,7 +20,7 @@ export default function Card({
   return (
     <div
       // className is a template literal, it lets you use JS inside of CSS. It's a bit like string interpolation in JS. You specify a CSS class name, and then you can use JS to conditionally add other class names.
-      className={`relative col-span-1 h-96 overflow-hidden border border-slate-400 bg-slate hover:bg-gradient-to-bl from-slate-50/25 to-slate-100/25 hover:shadow-lg hover:border-gray-900 ${
+      className={`px-2 relative col-span-1 h-96 overflow-hidden border border-slate-400 bg-slate hover:bg-gradient-to-bl from-slate-50/25 to-slate-100/25 hover:shadow-lg hover:border-gray-900 ${
         large ? "md:col-span-2" : ""
       }`}
     >

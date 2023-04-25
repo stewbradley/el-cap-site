@@ -53,7 +53,7 @@ export default function Home() {
           variants={FADE_DOWN_ANIMATION_VARIANTS}
         >
           <div>
-            <Balancer>Technical Founders building near Collisions</Balancer>
+            <Balancer>We partner with the bold at the earliest stages</Balancer>
           </div>
         </motion.h1>
         <motion.p
@@ -116,13 +116,13 @@ const features = [
   {
     title: "Portfolio",
     description:
-      "Deeply technical founders building near collisions ",
+      "Our companies",
     large: true,
   },
   {
     title: "What are collisions?",
     description:
-      "Collisions are the impact of innovation and behavior change.",
+      "The impact of innovation and behavior change",
     demo: 
     <div className="animate-pulse">
       <Link href="https://mirror.xyz/0xA00D13D2067F6D6afAF4705A624117Cf962B2515/cQ_XguVBHt9VEv1JjN95V8cmFhWrxfVoVm-FdOk7kVI">
@@ -139,7 +139,7 @@ const features = [
   {
     title: "Our writing ☝️",
     description:
-      "And check out what we're [reading](https://airtable.com/shrtYNWe0VHKuRcCb/tbl1Z6dRfPEOSurN5/viw1Y4hZ5IMQXltI3?blocks=hide).",
+      "and what we're [reading](https://airtable.com/shrtYNWe0VHKuRcCb/tbl1Z6dRfPEOSurN5/viw1Y4hZ5IMQXltI3?blocks=hide).",
     demo: (
       <div className="hover:animate-spin">
         <Link href="../posts/">
@@ -156,7 +156,7 @@ const features = [
   {
     title: "Powered by contributors",
     description:
-      "A collective of experts from across functions.",
+      "A collective of experts, operators, and builders",
     demo: (
       <div className="flex justify-center space-x-20">
         <Link href="/contributors"><Image alt="egypt logo" src="/joined.svg" width={60} height={60} /></Link>
