@@ -60,13 +60,16 @@ export default function Behzod() {
 
             <p>CTO of Arkestro | prev. SurveyMonkey | Tufts Alum | DC Native | 4x Marathoner</p>
             <br></br>
-            <p>How do you think you can best help/work with startups? Advising on Product Roadmap, Architecture and Integrations Strategy, Interviewing/Hiring, and Enterprise Compliance</p>
+            <p className="font-bold">How do you think you can best help/work with startups?</p> 
+            <p>Advising on Product Roadmap, Architecture and Integrations Strategy, Interviewing/Hiring, and Enterprise Compliance</p>
             <br></br>
-            <p>If there was a book, movie, podcast, or blog post that you could make everyone you work with consume, what would it be and why? Born to Run -- because it illustrates that we humans are capable of much more than we think.</p>
+            <p className="font-bold">If there was a book, movie, podcast, or blog post that you could make everyone you work with consume, what would it be and why?</p>
+            <p>Born to Run -- because it illustrates that we humans are capable of much more than we think.</p>
             <br></br>
             <p>What is an online product that no longer exists that you wish was still around and why? turntable.fm -- online group djing and listening was a really engaging way to consume music</p>
             <br></br> 
-            <p>Favorite music to work to? Jon Hopkins, Four Tet, Fred again.., Totally Enormous Extinct Dinosaurs, or Jamie xx</p>
+            <p className="font-bold">Favorite music to work to?</p>
+            <p>Jon Hopkins, Four Tet, Fred again.., Totally Enormous Extinct Dinosaurs, or Jamie xx</p>
             <br></br>
           </Balancer>
         </motion.p> 
