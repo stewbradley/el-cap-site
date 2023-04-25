@@ -1,6 +1,6 @@
 ---
 title: 'The Empathy Engine'
-date: '2021-12-15'
+date: '2022-12-15'
 ---
 #### [Kunal Tandon](https://twitter.com/kunaltandon)
 
