@@ -3,14 +3,10 @@ import Layout from "@/components/layout";
 import Balancer from "react-wrap-balancer";
 import { motion } from "framer-motion";
 import { DEPLOY_URL, FADE_DOWN_ANIMATION_VARIANTS } from "@/lib/constants";
-import { Github, Twitter } from "@/components/shared/icons";
-import WebVitals from "@/components/home/web-vitals";
 import ComponentGrid from "@/components/home/component-grid";
 import Image from "next/image";
 import Link from "next/link";
 import localFont from "@next/font/local";
-import { Inter } from "@next/font/google";
-import cx from "classnames";
 
 const sfPro = localFont({
   src: "../styles/SF-Pro-Display-Medium.otf",
