@@ -1,0 +1,17 @@
+---
+title: 'Flexible Fences'
+date: '2021-05-26'
+---
+#### [Kunal Tandon](https://twitter.com/kunaltandon)
+
+At El Cap, we think and talk a lot about what work is going to look like for millions of people in the not too distant future. Even before Covid, we believed the tide was shifting towards more flexible work, teams working asynchronously, and a significant number of employees working from different places, rather than in a single office. A global pandemic that forced all of us into our homes only accelerated this shift.
+
+We’ve seen this sudden shift playout in our portfolio, as leadership adjusts workflows to keep their teams connected, motivated, and informed—all while trying to develop and maintain a strong culture. Understanding that where people work from isn’t the only thing changing, but also how they work is being transformed is critical. This insight informed our investment in Friday, a team that is building the command center for remote work.
+
+An exciting part of the rise of more flexible work situations is that it should hypothetically give people more freedom to do personal things at times and in ways that weren’t easy or acceptable in many work environments in the past. Want to travel to another part of the world for two weeks, and work outside the office? For most of us, that would previously have proved difficult, but with more teams working asynchronously, time zones become less of a factor. Want to go run errands in the middle of the day, or get a workout in before lunch? You can now build your day in a way that lets you optimize both for productivity at work and happiness outside of it.
+
+Until recently, El Cap was a two-person operation and we didn’t have to give a lot of thought to how we communicate and how we work. We take notes in Notion, communicate real time on Discord, and for anything more complex or nuanced, we’d simply ping each other on Zoom. Now that our team has two additional people, and each of us is focused on different things at any given time, we’ve been forced to build more processes and structure in how we work and communicate. At first, the trade for more structure and process might seemingly mean less freedom and flexibility, but in fact it is very much the opposite.
+
+What I’ve learned in recent weeks is that building more processes around how we work enables us all to be more productive, and have more flexibility in our day to day lives, not less. On our team, the concern is never if people are meeting their responsibilities, rather it is always making sure we are collectively working together towards our common goals, even if we are focused on different parts of a larger shared mission. Building processes sets clear expectations across our team. It allows us to focus more time on executing and doing our best work, while also enjoying the benefits of a job that allows for greater flexibility.
+
+Our internal processes are a work in progress, but I’m already excited about the direction we’re moving. I don’t know what our team will look like in ten years, but my goal is to make sure—whether we are four people or forty—that we will always be able to make room for everyone to do the things they care about outside of El Cap, while still doing the best work of their lives with us.

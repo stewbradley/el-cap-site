@@ -1,0 +1,15 @@
+---
+title: 'The Shift'
+date: '2020-09-04'
+---
+#### [Kunal Tandon](https://twitter.com/kunaltandon)
+
+At El Cap we’re often in conversations with founders who have been building a business with little to no outside capital for years. They have been focused on building a product, talking to customers, iterating as they learn more, and trying to grow in a continuous cycle. Bootstrappers. Much of their time to date is spent thinking about how to accomplish the most with the least. By the time we’ve connected with this kind of leader, it’s likely they’ve had time to form some strong habits. And these habits are often the source of early challenges if we invest.
+
+We aim to invest in businesses that have reached an inflection point. Things are working, product-market fit exists, and more capital can help the business grow more quickly in concrete ways. This can take many forms. More money to experiment with marketing strategies, to ramp up hiring, to add product verticals, to expand into new markets, etc. In simpler terms, most founders we talk to have already affirmitavley answered the question of “Can this be a business?” Chances are by the time you’re talking to me; a new question has popped up. “What would more money enable you to do for your business that you can’t do today?” Founders fundraising usually have great prepared answers for this question.
+
+Yet simply taking capital for the first time doesn’t flip a switch in the minds of every entrepreneur. Bootstrappers are often forced to operate from a limited resource mindset in the earliest stages of a company. I call this a scarcity mindset. Shifting to a more abundance driven mindset can prove challenging at first. I believe an abundance mindset enables founders to think bigger. It empowers them to ask “what can we do, try, and learn now that there is more capital to support our goals?” Surviving is no longer the most important consideration, rather optimizing to thrive should become the primary focus.
+
+I see it as part of my job to help the leaders in our portfolio make this transition from scarcity thinking to an abundance mindset. This responsibility is an important one, but not a difficult one in my experience to date. We’re fortunate that we’re backing founders where the biggest challenge is to encourage them to use the capital we’re investing as a tool to expand upon, and accelerate the great work they’ve done to date, rather than having to caution them to rein in their spending habits. That feels like a tougher challenge, and a more volatile mindset shift from my perspective.
+
+We focus on discipline, fundamentals, and data driven decision making in our work at El Cap. By extension of what we look for, the founders we partner are focused on the same things, which is always a great starting point from which to evolve.

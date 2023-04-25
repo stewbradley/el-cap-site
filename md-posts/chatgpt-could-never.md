@@ -1,0 +1,14 @@
+---
+title: 'ChatGPT Could Never'
+date: '2023-02-06'
+---
+#### [Stew Bradley](https://twitter.com/stewbradley)
+
+I've been playing around with AI chatbots for the past month or so. From my experience, these tools are great for quickly exploring unknown concepts. They provide digestible overviews for the ELI5 type questions that would be otherwise cumbersome to answer (outside of asking an expert directly). While these models excel in their breadth of knowledge, when it comes to depth, they still have a ways to go. This may be because I'm asking the wrong questions, but it also seems like it’s a function of how these models work.
+
+AI chatbots encode text into numerical vectors (called embeddings) and then predict a response using an attention mechanism that allows them to “look” at relevant parts of the conversation and generate informed responses. These models are pre-trained on a large corpus of text, which allows them to recognize patterns and form their own understanding. In this context, understanding doesn't mean developing a thorough comprehension of the subject matter, but rather an ability to generate a relevant and appropriate response to the question. Because they search for commonalities between large sections of data, they excel at generalizing. But this same dynamic makes them clumsy when a topic is nuanced or rapidly changing. I believe that understanding the strengths and limitations of these tools is key to leveraging them in the most productive ways.
+
+Breadth of knowledge is essential for innovation. Having a wide array of ideas and information from different disciplines can help to create new ways of thinking and uncover creative solutions to problems. Innovation rarely comes from just knowledge about a particular subject or field. It requires the ability to look at things from different angles and see how ideas from one area can be applied to another. Looking at the same situation from different perspectives can help to spark creativity and uncover new solutions to old problems. Science is littered with the benefits of cross pollination of ideas; from chemists using breakthroughs in crystalography to map the ribosome, to psychiatrists using novel techniques like optogentics to better understand how our emotions impact the physical structure of our brains. As we seek to develop our understanding of the world, tools like ChatGPT can play a pivotal role in expanding our intellectual range.
+
+Ultimately, AI chatbots are an interesting way of exploring new concepts and quickly gaining insights. It is early days for generative AI, but these tools have already changed my own workflows. And I’m excited to watch the evolution of the space and the wide ranging knock-on effects. I’d love to hear other people’s experience with these tools and how they are being used in their daily work. DMs are open if you’d like to share.
+

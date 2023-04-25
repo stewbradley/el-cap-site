@@ -13,6 +13,11 @@ const sfPro = localFont({
   variable: "--font-sf",
 });
 
+const supply = localFont({
+  src: "../styles/Supply-Regular.otf",
+  variable: "--font-supply",
+});
+
 const inter = Inter({
   variable: "--font-inter",
   subsets: ["latin"],
@@ -25,7 +30,7 @@ export default function MyApp({
   return (
     <SessionProvider session={session}>
       <RWBProvider>
-        <div className={cx(sfPro.variable, inter.variable)}>
+        <div className={cx(supply.variable, inter.variable,)}>
           <Component {...pageProps} />
         </div>
       </RWBProvider>
