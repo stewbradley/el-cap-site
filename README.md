@@ -13,7 +13,7 @@
 
 ## Introduction
 
-Rebuilding the el cap site from scratch was as much as a learning exercise as anything else. I started with a few React and Next.js components, a few ideas, and the help of the internet and ended up with a full-fledged site that I'm proud of.
+Rebuilding the el cap site from scratch was primarily a learning exercise. We started with a few React components, some basic ideas, and the internet and ended up with a full-fledged site that we're proud of. 
 
 Tools used include:
 
@@ -27,4 +27,6 @@ Tools used include:
 - [Figma](https://www.figma.com/)
 - [VS Code](https://code.visualstudio.com/)
 
+
+Shoutouts: Zakk Fleischmann, Steven Tey, and the rest of the el cap Contributors for their help and support. 
 # el-cap-site
