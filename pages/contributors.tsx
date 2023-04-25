@@ -59,7 +59,7 @@ export default function Contributors() {
       </motion.div>
       {/* here we are animating with Tailwind instead of Framer Motion because Framer Motion messes up the z-index for child components */}
       <div className="my-10 grid w-full max-w-screen-xl animate-[slide-down-fade_0.5s_ease-in-out] grid-cols-1 gap-5 px-5 md:grid-cols-3 xl:px-0">
-        {features.map(({ title, description, demo, large }) => (
+        {features.map(({ title, description, demo}) => (
           <Blog
             key={title}
             title={title}
@@ -71,7 +71,7 @@ export default function Contributors() {
                 demo
               )
             }
-            large={large}
+            
           />
         ))}
       </div>
