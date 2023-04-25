@@ -1,6 +1,6 @@
 <a href="https://elcap.xyz">
-  <img alt="Precedent – Building blocks for your Next project" src="https://precedent.dev/api/og">
-  <h1 align="center">Precedent</h1>
+  <img alt="el cap – investing near collisions" src="/logo.png">
+  <h1 align="center">El Cap</h1>
 </a>
 
 <p align="center">
@@ -27,3 +27,4 @@ Tools used include:
 - [Figma](https://www.figma.com/)
 - [VS Code](https://code.visualstudio.com/)
 
+# el-cap-site
