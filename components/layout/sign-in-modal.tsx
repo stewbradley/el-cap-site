@@ -25,7 +25,7 @@ const SignInModal = ({
         <div className="flex flex-col items-center justify-center space-y-3 border-b border-gray-200 bg-slate-40 px-4 py-6 pt-8 text-center md:px-16">
           <a href="https://twitter.com/elcapxyz">
             <Image
-              src="/team.png"
+              src="/team.svg"
               alt="el cap team"
               
               width={1200}
