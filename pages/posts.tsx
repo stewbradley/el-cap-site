@@ -1,17 +1,12 @@
-import Head from 'next/head';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 import Balancer from 'react-wrap-balancer';
-import Image from 'next/image';
 import localFont from '@next/font/local';
 import PostLayout from '../components/layout/posts-index';
 import Date from '../components/date';
 import { getSortedPostsData } from '../lib/posts';
-import ComponentGrid from '@/components/home/component-grid';
-import Card from '@/components/home/card';
-import WebVitals from '@/components/home/web-vitals';
 import { DEPLOY_URL, FADE_DOWN_ANIMATION_VARIANTS } from '@/lib/constants';
-import { Github, Twitter } from '@/components/shared/icons';
+
 
 const supply = localFont({
   src: '../styles/Supply-Regular.otf',
@@ -28,7 +23,13 @@ export async function getStaticProps() {
   };
 }
 
-function PostList({ posts }) {
+interface PostData {
+  id: string;
+  date: string;
+  title: string;
+}
+
+function PostList({ posts }: { posts: PostData[] }) {
   return (
     <ul>
       {posts.map(({ id, date, title }) => (
@@ -45,7 +46,17 @@ function PostList({ posts }) {
   );
 }
 
-export default function Writing({ allPostsData }) {
+type Post = {
+  id: string;
+  date: string;
+  title: string;
+}
+
+type WritingProps = {
+  allPostsData: Post[];
+}
+
+export default function Writing({ allPostsData }: WritingProps) {
   console.log('allPostsData is ', allPostsData);
 
   return (
