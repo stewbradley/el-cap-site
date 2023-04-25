@@ -28,7 +28,7 @@ export default async function handler(req: NextRequest) {
           justifyContent: "center",
           backgroundColor: "white",
           backgroundImage:
-            "linear-gradient(to bottom right, #E0E7FF 25%, #ffffff 50%, #CFFAFE 75%)",
+            "linear-gradient(to bottom right, #E0E7FF 25%, #fffff4 50%, #CFd4F8 25%)",
         }}
       >
         <img
@@ -40,10 +40,7 @@ export default async function handler(req: NextRequest) {
           style={{
             fontSize: "100px",
             fontFamily: "SF Pro",
-            background:
-              "linear-gradient(to bottom right, #000000 21.66%, #78716c 86.47%)",
-            backgroundClip: "text",
-            color: "transparent",
+            color: "black",
             lineHeight: "5rem",
             letterSpacing: "-0.02em",
           }}
@@ -54,7 +51,7 @@ export default async function handler(req: NextRequest) {
     ),
     {
       width: 1200,
-      height: 630,
+      height: 830,
       fonts: [
         {
           name: "SF Pro",
