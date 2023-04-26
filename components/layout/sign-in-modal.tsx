@@ -21,7 +21,7 @@ const SignInModal = ({
 
   return (
     <Modal2 showModal={showSignInModal} setShowModal={setShowSignInModal}>
-      <div className="flex px-2 py-4 overflow-hidden shadow-xl md:rounded-2xl md:border md:border-gray-200 bg-gradient-to-bl from-slate-100/70 via-slate to-slate-200/70 hover:shadow-lg hover:border-white">
+      <div className="flex px-2 py-4 overflow-hidden shadow-xl md:rounded-2xl md:border md:border-gray-200 bg-gradient-to-bl from-slate-100/70 via-white to-slate-200/70 hover:shadow-lg hover:border-white">
         <div className="flex flex-col items-center justify-center space-y-3 border-b border-gray-200 bg-slate-40 px-4 py-6 pt-8 text-center md:px-16">
           <a href="https://twitter.com/elcapxyz">
             <Image

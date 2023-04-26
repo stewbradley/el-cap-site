@@ -29,7 +29,7 @@ export default function Layout({
     <>
       <Meta {...meta} />
       <SignInModal />
-      <div className="fixed h-screen w-full bg-gradient-to-br from-slate-300 via-slate to-slate-100" />
+      <div className="fixed h-screen w-full bg-gradient-to-br from-slate-300 via-white to-slate-100" />
       <div
         className={`fixed top-0 w-full ${
           scrolled
