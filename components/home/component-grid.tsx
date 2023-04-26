@@ -35,40 +35,12 @@ export default function ComponentGrid() {
       >
         Arkestro
       </button>
-      <ClockworkModal />
-      <button
-        onClick={() => setShowClockworkModal(true)}
-        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border text-red-600 hover:text-gray-600 border-red-400 px-3 py-2 transition-all duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100  hover:bg-red-200"
-      >
-        Clockwork
-      </button>
       <BackdropModal />
       <button
         onClick={() => setShowBackdropModal(true)}
         className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border text-orange-500 hover:text-gray-600 border-orange-400 px-3 py-2 transition-all duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-orange-300"
       >
         Backdrop
-      </button>
-      <ReviveModal />
-      <button
-        onClick={() => setShowReviveModal(true)}
-        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border border-violet-400 px-3 py-2 transition-all duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-violet-300 text-violet-500 hover:text-black"
-      >
-        Revive
-      </button>
-      <GuruModal />
-      <button
-        onClick={() => setShowGuruModal(true)}
-        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border border-white px-3 py-2 transition-all duration-75 text-white hover:text-gray-800 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-white"
-      >
-        Guru
-      </button>
-      <LoopModal />
-      <button
-        onClick={() => setShowLoopModal(true)}
-        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border border-blue-400 px-3 py-2 transition-all duration-75 text-blue-500 hover:text-gray-600 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-blue-200"
-      >
-        Loop
       </button>
       <CabinModal />
       <button
@@ -77,13 +49,35 @@ export default function ComponentGrid() {
       >
       Cabin
       </button>
+      <ClockworkModal />
+      <button
+        onClick={() => setShowClockworkModal(true)}
+        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border text-red-600 hover:text-gray-600 border-red-400 px-3 py-2 transition-all duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100  hover:bg-red-200"
+      >
+        Clockwork
+      </button>
       <GenEModal />
       <button
         onClick={() => setShowGenEModal(true)}
-        className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-amber-500 px-3 py-2 transition-all text-amber-600 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-amber-400"
+        className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-yellow-500 px-3 py-2 transition-all text-yellow-600 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-yellow-300"
       >
         GenE
       </button>
+      <GuruModal />
+      <button
+        onClick={() => setShowGuruModal(true)}
+        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border border-fuchsia-500 px-3 py-2 transition-all duration-75 text-fuchsia-500 hover:text-gray-800 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-fuchsia-300"
+      >
+        Guru
+      </button>
+      <LoopModal />
+      <button
+        onClick={() => setShowLoopModal(true)}
+        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border border-blue-500 px-3 py-2 transition-all duration-75 text-blue-600 hover:text-gray-600 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-blue-200"
+      >
+        Loop
+      </button>
+      
       <MossModal />
       <button
         onClick={() => setShowMossModal(true)}
@@ -91,6 +85,18 @@ export default function ComponentGrid() {
       >
         Moss
       </button>
+      <ReviveModal />
+      <button
+        onClick={() => setShowReviveModal(true)}
+        className="hover:shadow-md flex md:text-lg md:w-40  items-center justify-center border border-violet-500 px-3 py-2 transition-all duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-violet-300 text-violet-600 hover:text-black"
+      >
+        Revive
+      </button>
+      
+      
+      
+      
+      
       
       
     </div>

@@ -22,7 +22,7 @@ const GuruModal = ({
           <div className="flex flex-col items-left justify-center space-y-3 px-6 py-6 pt-8 text-center md:px-10">
             <a>
               <Image
-                src="/guru.svg"
+                src="/guru.png"
                 alt="Precedent Logo"
                 className="h-100 w-100"
                 width={110}
