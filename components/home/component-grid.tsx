@@ -92,13 +92,6 @@ export default function ComponentGrid() {
       >
         Revive
       </button>
-      
-      
-      
-      
-      
-      
-      
     </div>
   );
 }
