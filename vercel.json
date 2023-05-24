@@ -1,0 +1,5 @@
+{
+    "rewrites": [
+      { "source": "/aisurvey", "destination": "https://elcap1.notion.site/El-Cap-State-of-AI-Research-82d2fc2f165f407880659f1dc2f83e34" }
+    ]
+  }
