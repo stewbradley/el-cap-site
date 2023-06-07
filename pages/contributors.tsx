@@ -110,7 +110,7 @@ const features = [
   {
     title: "Craig Wilson",
     description:
-      "[Twitter](https://twitter.com/ccgeoffwilson), [LinkedIn](https://www.linkedin.com/in/cgeoffwilson/)",
+      "[Personal site] http://www.craigwilson.co/, [Twitter](https://twitter.com/ccgeoffwilson), [LinkedIn](https://www.linkedin.com/in/cgeoffwilson/)",
     demo: <Link href="/craig">
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
@@ -124,7 +124,7 @@ const features = [
   {
     title: "Colette Kolenda",
     description:
-      "[Personal site](https://kevinhanaford.com/), [Twitter](https://twitter.com/colettekolenda), [LinkedIn](https://www.linkedin.com/in/colettekolenda/)",
+      "[Twitter](https://twitter.com/colettekolenda), [LinkedIn](https://www.linkedin.com/in/colettekolenda/)",
     demo: <Link href="/colette">
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
