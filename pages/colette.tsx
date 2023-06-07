@@ -50,7 +50,7 @@ export default function Behzod() {
         >
           <Balancer>
             <h2 className="font-supply">
-              <Link href="https://twitter.com/colettekolenda" className="text-blue-500 font-bold hover:underline">Twitter, </Link>  
+              <Link href="https://twitter.com/colettekolenda" className="text-blue-500 font-bold hover:underline">Twitter </Link>  
               <Link href="https://www.linkedin.com/in/colettekolenda/" className="text-sky-700 font-bold hover:underline">LinkedIn</Link>
               
                    

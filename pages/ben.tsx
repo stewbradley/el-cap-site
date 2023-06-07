@@ -50,9 +50,7 @@ export default function Behzod() {
         >
           <Balancer>
             <h2 className="font-supply">
-              <Link href="https://twitter.com/beh_zod" className="text-blue-500 font-bold hover:underline">Twitter, </Link>  
-              <Link href="https://behzod.com/" className="text-cyan-600 font-bold hover:underline">Personal site, </Link>
-              <Link href="https://www.linkedin.com/in/behzodsirjani/" className="text-sky-700 font-bold hover:underline">LinkedIn</Link>
+              <Link href="https://www.linkedin.com/in/benleiken/" className="text-sky-700 font-bold hover:underline">LinkedIn</Link>
                    
             </h2>
             <br></br> 

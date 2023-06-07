@@ -49,7 +49,7 @@ export default function Behzod() {
         >
           <Balancer>
             <h2 className="font-supply">
-              <Link href="http://twitter.com/maxdicapua" className="text-blue-500 font-bold hover:underline">Twitter, </Link>  
+              <Link href="http://twitter.com/maxdicapua" className="text-blue-500 font-bold hover:underline">Twitter </Link>  
               <Link href="http://max.lol/" className="text-sky-700 font-bold hover:underline">Personal site</Link>
               
                    
