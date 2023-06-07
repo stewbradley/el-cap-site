@@ -1,6 +1,6 @@
 import Blog from "@/components/home/blog";
-import AltLayout from "@/components/layout/alt-index";
 import Balancer from "react-wrap-balancer";
+import AltLayout from "@/components/layout/alt-index";
 import { motion } from "framer-motion";
 import { DEPLOY_URL, FADE_DOWN_ANIMATION_VARIANTS } from "@/lib/constants";
 import { Github, Twitter } from "@/components/shared/icons";
@@ -21,7 +21,6 @@ const supply = localFont({
   src: "../styles/Supply-Regular.otf",
   variable: "--font-supply",
 });
-
 export default function Contributors() {
   return (
     <AltLayout>
@@ -107,10 +106,25 @@ const features = [
       />
       </Link>
   },
+
+  {
+    title: "Craig Wilson",
+    description:
+      "[Twitter](https://twitter.com/ccgeoffwilson), [LinkedIn](https://www.linkedin.com/in/cgeoffwilson/)",
+    demo: <Link href="/craig">
+    {/* eslint-disable-next-line @next/next/no-img-element */}
+    <img
+      src="/craig.svg"
+      alt="el cap writing"
+      width={120}
+    />
+    </Link>
+  },
+
   {
     title: "Colette Kolenda",
     description:
-      "[Twitter](https://twitter.com/colettekolenda), [LinkedIn](https://www.linkedin.com/in/colettekolenda/)",
+      "[Personal site](https://kevinhanaford.com/), [Twitter](https://twitter.com/colettekolenda), [LinkedIn](https://www.linkedin.com/in/colettekolenda/)",
     demo: <Link href="/colette">
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
