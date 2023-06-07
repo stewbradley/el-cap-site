@@ -42,7 +42,7 @@ export default function Behzod() {
           className="bg-gradient-to-br from-black to-stone-500 bg-clip-text text-left font-display text-3xl font-bold  text-transparent drop-shadow-sm md:text-5xl md:leading-[5rem]"
           variants={FADE_DOWN_ANIMATION_VARIANTS}
         >
-          <Balancer className="font-supply">Behzod Sirjani</Balancer>
+          <Balancer className="font-supply">Ben Leiken</Balancer>
         </motion.h1>
         <motion.p
           className="mt-6 text-left p-1 text-gray-700 md:text-xl"
@@ -55,9 +55,7 @@ export default function Behzod() {
               <Link href="https://www.linkedin.com/in/behzodsirjani/" className="text-sky-700 font-bold hover:underline">LinkedIn</Link>
                    
             </h2>
-            <br></br>  
-            LinkedIn
-
+            <br></br> 
             <p>CTO of Arkestro | prev. SurveyMonkey | Tufts Alum | DC Native | 4x Marathoner</p>
             <br></br>
             <p className="font-bold">How do you think you can best help/work with startups?</p> 
