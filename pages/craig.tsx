@@ -17,8 +17,6 @@ const supply = localFont({
   src: "../styles/Supply-Regular.otf",
   variable: "--font-supply",
 });
-
-
 export default function Behzod() {
   return (
     <ContributorLayout>
@@ -59,7 +57,7 @@ export default function Behzod() {
             <p>Serial startup helper: Operator/Investor/Advisor in past, present, and future lives</p>
             <br></br>  
             <p className="font-bold">How do you think you can best help/work with startups?</p> 
-            <p>Telling your story effectively, fundraising, and hiring..</p>
+            <p>Telling your story effectively, fundraising, and hiring.</p>
             <br></br>  
             <p className="font-bold">If there was a book, movie, podcast, or blog post that you could make everyone you work with consume, what would it be and why?</p>
             <p>It’s usually the most recent thing I’ve read, watched, or listened to so lately its Ministry for the Future by Kim Stanley Robinson (fiction) & Say Nothing by Patrick Radden Keefe (non-fiction). I do subscribe to the notion that one of the most valuable things you can do is read as much as you can get your hands on.</p>
