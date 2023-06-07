@@ -68,7 +68,7 @@ export default function Behzod() {
             <p className="font-bold">Favorite music to work to?</p> 
             <p>
               <Link href="https://open.spotify.com/album/2CMCLp7kOI8Be6rPaYyHeZ?si=a6FXoAxGQveu8uxuaY1KWQ" className="text-blue-500 hover:underline">Keith Jarrett - Bremen & Lausanne Concerts</Link> and
-              <Link href="https://open.spotify.com/album/6NkgPYCMAzttRIKDpuJrFp?si=yHhZpQhUTYealPYnVWoieQ" className="text-blue-500 hover:underline">John Coltrane - Giant Steps</Link>
+              <Link href="https://open.spotify.com/album/6NkgPYCMAzttRIKDpuJrFp?si=yHhZpQhUTYealPYnVWoieQ" className="text-blue-500 hover:underline"> John Coltrane - Giant Steps</Link>
             </p> 
           </Balancer>
         </motion.p> 
