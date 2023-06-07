@@ -110,7 +110,7 @@ const features = [
   {
     title: "Craig Wilson",
     description:
-      "[Personal site](http://www.craigwilson.co/), [Twitter](https://twitter.com/ccgeoffwilson), [LinkedIn](https://www.linkedin.com/in/cgeoffwilson/)",
+      "[Personal site](http://www.craigwilson.co/), [Twitter](https://twitter.com/cgeoffwilson), [LinkedIn](https://www.linkedin.com/in/cgeoffwilson/)",
     demo: <Link href="/craig">
     {/* eslint-disable-next-line @next/next/no-img-element */}
     <img
