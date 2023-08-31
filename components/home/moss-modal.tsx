@@ -9,28 +9,28 @@ import {
 import Image from "next/image";
 import Link from "next/link";
 
-const MossModal = ({
-    showMossModal,
-    setShowMossModal, }: {
-      showMossModal: boolean;
-      setShowMossModal: Dispatch<SetStateAction<boolean>>;
+const RhizomeModal = ({
+    showRhizomeModal,
+    setShowRhizomeModal, }: {
+      showRhizomeModal: boolean;
+      setShowRhizomeModal: Dispatch<SetStateAction<boolean>>;
     }) => {
     return (
-      <Modal showModal={showMossModal} setShowModal={setShowMossModal}>
-        <Link href="https://mossworkspace.com/">
+      <Modal showModal={showRhizomeModal} setShowModal={setShowRhizomeModal}>
+        <Link href="https://www.rhizomedata.com/">
         <div className="w-full overflow-hidden md:max-w-md md:border md:border-gray-500 md:shadow-xl border border-black bg-gradient-to-bl from-slate-100/70 via-slate to-slate-200/70 hover:shadow-lg hover:border-white ">
           <div className="flex flex-col items-left justify-center space-y-3 px-6 py-6 pt-8 text-center md:px-10">
             <a>
               <Image
-                src="/moss.png"
-                alt="Moss Logo"
+                src="/rhizome.png"
+                alt="Rhizome Logo"
                 className="h-100 w-100"
                 width={110}
                 height={75}
               />
             </a>
             <p className="text-sm text-left text-black">
-            A visual workspace and file tethering for creative teams
+            A resiliency SaaS platform for utilities
             </p>
           </div>
         </div>
@@ -39,20 +39,20 @@ const MossModal = ({
     );
   };
 
-export function useMossModal() {
-  const [showMossModal, setShowMossModal] = useState(false);
+export function useRhizomeModal() {
+  const [showRhizomeModal, setShowRhizomeModal] = useState(false);
 
-  const MossModalCallback = useCallback(() => {
+  const RhizomeModalCallback = useCallback(() => {
     return (
-      <MossModal
-        showMossModal={showMossModal}
-        setShowMossModal={setShowMossModal}
+      <RhizomeModal
+        showRhizomeModal={showRhizomeModal}
+        setShowRhizomeModal={setShowRhizomeModal}
       />
     );
-  }, [showMossModal, setShowMossModal]);
+  }, [showRhizomeModal, setShowRhizomeModal]);
 
   return useMemo(
-    () => ({ setShowMossModal, MossModal: MossModalCallback }),
-    [setShowMossModal, MossModalCallback],
+    () => ({ setShowRhizomeModal, RhizomeModal: RhizomeModalCallback }),
+    [setShowRhizomeModal, RhizomeModalCallback],
   );
 }
