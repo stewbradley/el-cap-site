@@ -27,7 +27,7 @@ export default function ComponentGrid() {
 
   const [openPopover, setOpenPopover] = useState(false);
   return (
-    <div className="grid grid-cols-4 gap-5 md:grid-cols-4">
+    <div className="grid grid-cols-3 gap-5 md:grid-cols-3">
       <ArkestroModal />
       <button
         onClick={() => setShowArkestroModal(true)}
@@ -87,7 +87,7 @@ export default function ComponentGrid() {
       <RhizomeModal />
       <button
         onClick={() => setShowRhizomeModal(true)}
-        className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-slate-800 px-3 py-2 transition-all text-slate-800 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-slate-100"
+        className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-slate-800 px-3 py-2 transition-all text-slate-800 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-pink-300"
       >
         Rhizome
       </button>
