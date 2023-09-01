@@ -8,7 +8,7 @@ import { useGuruModal } from "./guru-modal";
 import { useGenEModal } from "./genE-modal";
 import { useLoopModal } from "./loop-modal";
 import { useCabinModal } from "./cabin-modal"; 
-import { useMossModal } from "./moss-modal";
+import { useRhizomeModal } from "./rhizome-modal";
 import Popover from "@/components/shared/popover";
 import Tooltip from "@/components/shared/tooltip";
 import { ChevronDown } from "lucide-react";
@@ -23,7 +23,7 @@ export default function ComponentGrid() {
   const { GenEModal, setShowGenEModal } = useGenEModal();
   const { LoopModal, setShowLoopModal } = useLoopModal();
   const { CabinModal, setShowCabinModal } = useCabinModal();
-  const { MossModal, setShowMossModal } = useMossModal();
+  const { RhizomeModal, setShowRhizomeModal } = useRhizomeModal();
 
   const [openPopover, setOpenPopover] = useState(false);
   return (
@@ -78,12 +78,12 @@ export default function ComponentGrid() {
         Loop
       </button>
       
-      <MossModal />
+      <RhizomeModal />
       <button
-        onClick={() => setShowMossModal(true)}
+        onClick={() => setShowRhizomeModal(true)}
         className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-slate-800 px-3 py-2 transition-all text-slate-800 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-slate-100"
       >
-        Moss
+        Rhizome
       </button>
       <ReviveModal />
       <button
