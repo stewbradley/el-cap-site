@@ -78,7 +78,7 @@ export default function Home() {
           </a>
           <a
             className="flex max-w-fit items-center justify-center space-x-2 border border-red-600 bg-slate px-5 py-2 text-sm text-white bg-red-300 transition-colors hover:text-black hover:shadow-md hover:border-gray-800 hover:bg-red-100"
-            href="https://github.com/stewbradley/el-cap"
+            href="https://github.com/elcapxyz/faq"
             target="_blank"
             rel="noopener noreferrer"
           >
