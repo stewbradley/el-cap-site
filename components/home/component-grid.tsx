@@ -33,7 +33,8 @@ export default function ComponentGrid() {
   const { CabinModal, setShowCabinModal } = useCabinModal();
   const { RhizomeModal, setShowRhizomeModal } = useRhizomeModal();
 
-  const [openPopover, setOpenPopover] = useState(false);
+  const [openAcquiredPopover, setOpenAcquiredPopover] = useState(false);
+  const [openShutdownPopover, setOpenShutdownPopover] = useState(false);
   return (
     <div className="grid grid-cols-3 gap-3 md:grid-cols-3">
       <ArkestroModal />
@@ -117,22 +118,21 @@ export default function ComponentGrid() {
             </button>
           </div>
         }
-        openPopover={openPopover}
-        setOpenPopover={setOpenPopover}
+        openPopover={openAcquiredPopover}
+        setOpenPopover={setOpenAcquiredPopover}
       >
         <button
-          onClick={() => setOpenPopover(!openPopover)}
+          onClick={() => setOpenAcquiredPopover(!openAcquiredPopover)}
           className="hover:shadow-md flex md:text-sm md:w-40 items-center justify-center border border-green-800 px-3 py-2 transition-all text-green-800 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none bg-green-300 hover:bg-grey-100"
         >
           <p className="text-gray-600">Acquired</p>
           <ChevronDown
-            className={`h-4 w-4 text-gray-600 transition-all ${openPopover ? "rotate-180" : ""
+            className={`h-4 w-4 text-gray-600 transition-all ${openAcquiredPopover ? "rotate-180" : ""
               }`}
           />
         </button>
       </Popover>
-      <MossModal />
-      <FridayModal />
+      
       <Popover
         content={
           <div className="w-full rounded-md bg-white p-2 sm:w-40">
@@ -148,20 +148,22 @@ export default function ComponentGrid() {
             </button>
           </div>
         }
-        openPopover={openPopover}
-        setOpenPopover={setOpenPopover}
+        openPopover={openShutdownPopover}
+        setOpenPopover={setOpenShutdownPopover}
       >
         <button
-          onClick={() => setOpenPopover(!openPopover)}
+          onClick={() => setOpenShutdownPopover(!openShutdownPopover)}
           className="hover:shadow-md flex md:text-sm md:w-40 items-center justify-center border border-red-500 px-3 py-2 transition-all text-red-800 hover:text-slate-700 duration-75 hover:border-gray-800 focus:outline-none bg-red-100 hover:bg-red-300"
         >
           <p className="text-red-600">Shutdown</p>
           <ChevronDown
-            className={`h-4 w-4 text-red-600 transition-all ${openPopover ? "rotate-180" : ""
+            className={`h-4 w-4 text-red-600 transition-all ${openShutdownPopover ? "rotate-180" : ""
               }`}
           />
         </button>
       </Popover>
+      <MossModal />
+      <FridayModal />
     </div>
   );
 }

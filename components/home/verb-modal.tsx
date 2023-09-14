@@ -18,7 +18,7 @@ const VerbModal = ({
     return (
       <Modal showModal={showVerbModal} setShowModal={setShowVerbModal}>
         <Link href="https://revivemedia.us">
-        <div className="w-full overflow-hidden md:max-w-md md:border md:border-gray-500 md:shadow-xl border border-black bg-white hover:shadow-lg hover:border-amber-500 ">
+        <div className="w-full overflow-hidden md:max-w-md md:border md:border-gray-500 md:shadow-xl border border-black bg-white hover:shadow-lg hover:border-amber-500 mx-auto my-auto">
           <div className="flex flex-col items-left justify-center space-y-3 py-6 pt-6 text-left text-sm md:px-10">
               <Image
                 src="/revive.png"
