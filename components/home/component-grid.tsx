@@ -27,7 +27,7 @@ export default function ComponentGrid() {
 
   const [openPopover, setOpenPopover] = useState(false);
   return (
-    <div className="grid grid-cols-3 gap-5 md:grid-cols-3">
+    <div className="grid grid-cols-3 gap-3 md:grid-cols-3">
       <ArkestroModal />
       <button
         onClick={() => setShowArkestroModal(true)}
@@ -91,7 +91,56 @@ export default function ComponentGrid() {
       >
         Rhizome
       </button>
-      
+      <Popover
+        content={
+          <div className="w-full rounded-md bg-white p-2 sm:w-40">
+            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+              Unstack
+            </button>
+            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+              Verb
+            </button>
+          </div>
+        }
+        openPopover={openPopover}
+        setOpenPopover={setOpenPopover}
+      >
+        <button
+          onClick={() => setOpenPopover(!openPopover)}
+          className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-green-800 px-3 py-2 transition-all text-green-800 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-green-300"
+        >
+          <p className="text-gray-600">Acquired</p>
+          <ChevronDown
+            className={`h-4 w-4 text-gray-600 transition-all ${openPopover ? "rotate-180" : ""
+              }`}
+          />
+        </button>
+      </Popover>
+      <Popover
+        content={
+          <div className="w-full rounded-md bg-white p-2 sm:w-40">
+            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+              Friday
+            </button>
+            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+              Moss
+            </button>
+          </div>
+        }
+        openPopover={openPopover}
+        setOpenPopover={setOpenPopover}
+      >
+        <button
+          onClick={() => setOpenPopover(!openPopover)}
+          className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-red-500 px-3 py-2 transition-all text-red-800 hover:text-slate-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-red-300"
+        >
+          <p className="text-red-600">Shutdown</p>
+          <ChevronDown
+            className={`h-4 w-4 text-red-600 transition-all ${openPopover ? "rotate-180" : ""
+              }`}
+          />
+        </button>
+      </Popover>
     </div>
   );
 }
