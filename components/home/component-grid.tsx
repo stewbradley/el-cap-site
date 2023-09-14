@@ -9,12 +9,20 @@ import { useGenEModal } from "./genE-modal";
 import { useLoopModal } from "./loop-modal";
 import { useCabinModal } from "./cabin-modal"; 
 import { useRhizomeModal } from "./rhizome-modal";
+import { useUnstackModal } from "./unstack-modal";
+import { useFridayModal } from "./friday-modal";
+import { useMossModal } from "./moss-modal";
+import { useVerbModal } from "./verb-modal";
 import Popover from "@/components/shared/popover";
 import Tooltip from "@/components/shared/tooltip";
 import { ChevronDown } from "lucide-react";
 
 export default function ComponentGrid() {
   const { DemoModal, setShowDemoModal } = useDemoModal();
+  const { VerbModal, setShowVerbModal } = useVerbModal();
+  const { FridayModal, setShowFridayModal } = useFridayModal();
+  const { MossModal, setShowMossModal } = useMossModal();
+  const { UnstackModal, setShowUnstackModal } = useUnstackModal();
   const { ArkestroModal, setShowArkestroModal } = useArkestroModal();
   const { ClockworkModal, setShowClockworkModal } = useClockworkModal();
   const { BackdropModal, setShowBackdropModal } = useBackdropModal();
@@ -91,13 +99,20 @@ export default function ComponentGrid() {
       >
         Rhizome
       </button>
+      <UnstackModal />
+      <VerbModal />
       <Popover
         content={
           <div className="w-full rounded-md bg-white p-2 sm:w-40">
-            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+            <button 
+              onClick={() => setShowUnstackModal(true)}
+              className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
               Unstack
             </button>
-            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+            
+            <button 
+              onClick={() => setShowVerbModal(true)}
+              className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
               Verb
             </button>
           </div>
@@ -107,7 +122,7 @@ export default function ComponentGrid() {
       >
         <button
           onClick={() => setOpenPopover(!openPopover)}
-          className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-green-800 px-3 py-2 transition-all text-green-800 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-green-300"
+          className="hover:shadow-md flex md:text-sm md:w-40 items-center justify-center border border-green-800 px-3 py-2 transition-all text-green-800 hover:text-gray-700 duration-75 hover:border-gray-800 focus:outline-none bg-green-300 hover:bg-grey-100"
         >
           <p className="text-gray-600">Acquired</p>
           <ChevronDown
@@ -116,13 +131,19 @@ export default function ComponentGrid() {
           />
         </button>
       </Popover>
+      <MossModal />
+      <FridayModal />
       <Popover
         content={
           <div className="w-full rounded-md bg-white p-2 sm:w-40">
-            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+            <button 
+              onClick={() => setShowFridayModal(true)}
+              className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
               Friday
             </button>
-            <button className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
+            <button 
+              onClick={() => setShowMossModal(true)}
+              className="flex w-full items-center justify-start space-x-2 rounded-md p-2 text-left text-sm transition-all duration-75 hover:bg-gray-100 active:bg-gray-200">
               Moss
             </button>
           </div>
@@ -132,7 +153,7 @@ export default function ComponentGrid() {
       >
         <button
           onClick={() => setOpenPopover(!openPopover)}
-          className="hover:shadow-md flex md:text-lg md:w-40 items-center justify-center border border-red-500 px-3 py-2 transition-all text-red-800 hover:text-slate-700 duration-75 hover:border-gray-800 focus:outline-none active:bg-gray-100 hover:bg-red-300"
+          className="hover:shadow-md flex md:text-sm md:w-40 items-center justify-center border border-red-500 px-3 py-2 transition-all text-red-800 hover:text-slate-700 duration-75 hover:border-gray-800 focus:outline-none bg-red-100 hover:bg-red-300"
         >
           <p className="text-red-600">Shutdown</p>
           <ChevronDown
