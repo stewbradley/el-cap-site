@@ -41,7 +41,23 @@ export default function Modal({
     <AnimatePresence>
       {showModal && (
         <>
-          {isMobile && <Leaflet setShow={setShowModal}>{children}</Leaflet>}
+          {isMobile && (
+            <motion.div
+              key="mobile-modal"
+              className="fixed inset-0 z-40 bg-white p-4 rounded-md border border-gray-300 shadow-lg"
+              style={{
+                top: "50%",
+                left: "50%",
+                transform: "translate(-50%, -50%)",
+                maxWidth: "90%", // Optional: Limit the width for smaller screens
+              }}
+              initial={{ scale: 0.95 }}
+              animate={{ scale: 1 }}
+              exit={{ scale: 0.95 }}
+            >
+            <Leaflet setShow={setShowModal}>{children}</Leaflet>
+            </motion.div>
+          )}
           {isDesktop && (
             <>
               <FocusTrap focusTrapOptions={{ initialFocus: false }}>

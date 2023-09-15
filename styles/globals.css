@@ -5,3 +5,15 @@
 .post-content {
   @apply prose;
 }
+
+/* Add a media query for mobile devices */
+@media (max-width: 767px) {
+  /* Style for mobile */
+  .modal {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 90%; /* Optional: Limit the width for smaller screens */
+  }
+}
