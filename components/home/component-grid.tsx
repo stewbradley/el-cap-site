@@ -100,8 +100,7 @@ export default function ComponentGrid() {
       >
         Rhizome
       </button>
-      <UnstackModal />
-      <VerbModal />
+      
       <Popover
         content={
           <div className="w-full rounded-md bg-white p-2 sm:w-40">
@@ -132,7 +131,8 @@ export default function ComponentGrid() {
           />
         </button>
       </Popover>
-      
+      <UnstackModal />
+      <VerbModal />
       <Popover
         content={
           <div className="w-full rounded-md bg-white p-2 sm:w-40">
