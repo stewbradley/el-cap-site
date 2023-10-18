@@ -22,7 +22,7 @@ const BackdropModal = ({
         <div className="w-full overflow-hidden md:max-w-md md:border md:border-gray-500 md:shadow-xl border border-black bg-gradient-to-bl from-slate-200/70 via-slate to-slate-200/70 hover:shadow-lg hover:border-amber-500 ">
           <div className="flex flex-col items-left justify-center space-y-3 px-6 py-4 pt-8 text-black md:px-10">
               <Image
-                src="/backdrop.png"
+                src="/backdrop.svg"
                 alt="Backdrop Logo"
                 className="h-100 w-100"
                 width={50}
