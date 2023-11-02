@@ -4,7 +4,7 @@ const DOMAIN = "https://elcap.xyz";
 
 export default function Meta({
   title = "el cap - investing near collisions",
-  description = "el cap is a venture firm oriented towards the future. We leverage the power of the market with the industries first Contributor program.",
+  description = "el cap is a venture firm oriented towards the future. We leverage the power of the market with the industry's first Contributor program.",
   image = `${DOMAIN}/api/og`,
 }: {
   title?: string;
