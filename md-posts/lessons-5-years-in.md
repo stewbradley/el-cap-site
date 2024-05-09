@@ -1,6 +1,6 @@
 ---
 title: 'Lessons 5 years in'
-date: '2023-02-18'
+date: '2024-05-09'
 ---
 #### [Stew Bradley](https://twitter.com/stewbradley)
 
@@ -85,3 +85,9 @@ Just like an art connoisseur who can spot authenticity and quality after seeing 
 
 The more we immerse ourselves, ask follow-up questions, and look for patterns, the more prepared our minds are to recognize the platinum from the white gold. This discernment is everything in seed stage venture—it empowers us to make smarter investment decisions and provide founders with strategic guidance that goes beyond the obvious. It also provides motivation to approach all of our interactions earnestly because each new startup, industry, and founder interaction is an opportunity to sharpen our perspective.
 
+—
+Reflecting on the past five years, I'm humbled by how much I got wrong or didn't see clearly. I know that if I look back on today five years from now, I'll likely feel the same sense of growth and humility. But I hope that with each passing year, the mistakes and blind spots will be fewer and farther between.
+
+What hasn't changed is the joy this job brings me. The evolving challenges, brilliant founders, and deepening partnerships continue to motivate and inspire me daily.
+
+I'm excited to keep learning and growing alongside the incredible teams we support. Here's to the next five years and all the lessons yet to come!

@@ -1,6 +1,6 @@
 ---
 title: 'Analogies are Dangerous'
-date: '2023-02-18'
+date: '2023-11-09'
 ---
 #### [Stew Bradley](https://twitter.com/stewbradley)
 
