@@ -1,6 +1,6 @@
 ---
 title: 'Lessons 5 years in'
-date: '2024-05-09'
+date: '2024-05-31'
 ---
 #### [Stew Bradley](https://twitter.com/stewbradley)
 
